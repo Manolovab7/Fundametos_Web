@@ -1,0 +1,76 @@
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 5px;
+}
+header{
+    background-color: rgb(78, 49, 42);
+    color: #fff;
+    padding: 20px;
+    padding-top: 50px;
+}
+
+header p{
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top: -15px;
+}
+
+header nav a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+header nav a:hover{
+    background-color: rgb(255, 0, 162);
+    color: #fff;
+}
+
+.primeira-secao {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.caixas {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+section article{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    padding: 10px;
+}
+
+header h1{
+    padding-top: -50px;
+    text-align: center;
+}
+header p{
+    text-align: center;
+}
+
+article{
+    border: 1px solid #f00;
+    width: 400px;
+    margin: auto;
+}
+
+.fundo-laranja {
+    background-color: rgb(202, 78, 48);
+    color: #000;
+    height: 300px;
+}
+
+button{
+    background-color: rgb(255, 0, 162);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}

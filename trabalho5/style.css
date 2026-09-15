@@ -1,0 +1,183 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+
+/* Botão */
+
+.botao {
+    margin: 0 auto;
+    width: 15%;
+    background-color: #00a52b;
+    color: white;
+    text-decoration: none;
+    padding: 12px 30px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+/* CABEÇALHO */
+
+header {
+    background-color: #252525;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navBar-List {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navBar-List li a {
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.navBar-List li {
+    transition: 0.3s ease-In-Out;
+    padding: 7px;
+}
+
+.navBar-List li:hover{
+    background-color: #00a52b;
+}
+
+
+/* Segunda Section */
+
+.segundo {
+    background-color: #1d1d1d;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 70px 0;
+}
+
+.segundo h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.segundo p {
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+/* Apresentação */
+
+.apresentacao {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.apresentacao h2 {
+    font-size: 22px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.card {
+    width: 240px;
+    min-height: 150px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 0;
+}
+
+.icone {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+
+/* Seção Verde */
+
+.verde {
+    background-color: #00a52b;
+    color: white;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.verde h2 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.verde  p {
+    margin-bottom: 30px;
+}
+
+.texto-menor {
+    width: 700px;
+    max-width: 90%;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 10px;
+}
+
+.botao-branco {
+    background-color: white;
+    color: #00a52b;
+}
+
+
+/* SEÇÃO FINAL */
+
+.final {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.final h2 {
+    font-size: 22px;
+}
+
+.final p {
+    margin-bottom: 30px;
+}
+
+.final .texto {
+    width: 800px;
+    max-width: 90%;
+    margin: 0 auto 25px;
+    font-size: 12px;
+    line-height: 1.8;
+}
+
+
+/* RODAPÉ */
+
+footer {
+    background-color: #292929;
+    color: white;
+    text-align: center;
+    padding: 35px 0;
+    font-size: 10px;
+}
